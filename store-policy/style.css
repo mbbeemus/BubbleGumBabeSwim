@@ -1,3 +1,20 @@
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff5f5;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid #8a8a8a;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: rgba(168, 255, 37, 0.62);
