@@ -16,17 +16,17 @@
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .header{
-	background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .nav{
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 
 .logo {
-	margin: 10px;
-	margin-left: 30px;
+    margin: 10px;
+    margin-left: 30px;
 }
 
 
@@ -45,9 +45,9 @@
 }
 
 .navbar{
-	background-color: #ffffff;
-	font-family: "Playfair Display", serif;
-	
+    background-color: #ffffff;
+    font-family: "Playfair Display", serif;
+    
 }
 
 .nav-link {
@@ -59,19 +59,19 @@
 }
 
 .dropdown-item{
-	color: rgba(238, 30, 153, 0.42);
+    color: rgba(238, 30, 153, 0.42);
 }
 
 .nav-bar-light{
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .container-fluid{
-	background-color: #fff;
-	margin: 0px;
+    background-color: #fff;
+    margin: 0px;
 }
 .navbar .navbar-expand-lg .navbar-light .bg-light{
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .jumbotron-fluid {
@@ -82,7 +82,7 @@
 }
 
 .btn{
-	background-color: #eaabba;
+    background-color: #eaabba;
 }
 
 .btn-primary {
@@ -103,12 +103,12 @@
 }
 
 .lead{
-	font-size: 100px;
-	font-family: "Playfair Display", serif;
-	font-style: bold;
-	color: #fff;
+    font-size: 100px;
+    font-family: "Playfair Display", serif;
+    font-style: bold;
+    color: #fff;
 
-	margin-top: 150px;
+    margin-top: 150px;
 }
 
 p{
@@ -122,10 +122,10 @@ p{
 }
 
 .welcome{
-	background-color: #eaabba;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-top: 0px;
+    background-color: #eaabba;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 0px;
 }
 
 .bg-light {
@@ -156,7 +156,7 @@ p{
 
 
 .col2 {
-	background-image: url('Media/coverup001.png');
+    background-image: url('Media/coverup001.png');
     background-size: cover;
     background-position: center;
     height:450px;
@@ -171,44 +171,44 @@ p{
         }
 
 h3{
-	color: #ffffff;
-	font-family: "Playfair Display", serif;
-	font-size: 300%;
-	margin-top: 70px;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-size: 300%;
+    margin-top: 70px;
 }
 
 footer{
-	background-color: #eaabba;
-	content-align: center;
-	padding-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+    background-color: #eaabba;
+    content-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 footer h4{
-	font-size: 100%;
-	font-family: "Playfair Display", serif;
-	font-style: bold;
-	color: #fff;
+    font-size: 100%;
+    font-family: "Playfair Display", serif;
+    font-style: bold;
+    color: #fff;
 }
 
 footer h5{
-	font-size: 80%;
-	font-family: "Playfair Display", serif;
-	font-style: bold;
-	color: #fff;
+    font-size: 80%;
+    font-family: "Playfair Display", serif;
+    font-style: bold;
+    color: #fff;
 }
 
 footer li{
-	font-size: 100%;
-	font-family: "Playfair Display", serif;
-	color: #fff;
+    font-size: 100%;
+    font-family: "Playfair Display", serif;
+    color: #fff;
 }
 
 
 
 footer .col-md-6{
-	text-align: right;
+    text-align: right;
 }
 
 .btn-primary {
@@ -228,6 +228,25 @@ footer .col-md-6{
     --bs-btn-disabled-border-color: #0d6efd;
 }
 
+form-label{
+    font-size: 100%;
+    font-family: "Playfair Display", serif;
+    font-style: bold;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: #ffffff;
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
 
 
 
