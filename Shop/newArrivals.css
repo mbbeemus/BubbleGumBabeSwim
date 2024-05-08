@@ -1,0 +1,581 @@
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+
+    appearance: none;
+    background-color: #fff5f5;
+    background-clip: padding-box;
+
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.header{
+    background-color: #ffffff;
+}
+
+.nav{
+    margin-top: 20px;
+}
+
+
+.logo {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+
+/* Custom CSS for navbar links hover */
+.navbar-nav .nav-link:hover {
+    background-color: #eaabba;
+    color: white; 
+}
+
+.navbar-nav .nav-link {
+    padding: 15px 50px; 
+    padding-right: 50px;
+    border-radius: 10px; 
+    font-size: 18px; 
+    margin-right:50px;
+}
+
+.navbar{
+    background-color: #ffffff;
+    font-family: "Playfair Display", serif;
+    
+}
+
+.nav-link {
+    
+    color: rgba(238, 30, 153, 0.46);
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.dropdown-item{
+    color: rgba(238, 30, 153, 0.42);
+}
+
+.nav-bar-light{
+    background-color: #fff;
+}
+
+.container-fluid{
+    background-color: #fff;
+    margin: 0px;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+    background-color: #fff;
+}
+
+.jumbotron-fluid {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.3) 100%),url('Media/homepage_main_image.png');
+        background-size: cover;
+        background-position: bottom center;
+        height: 100vh;
+}
+
+.btn{
+    background-color: #eaabba;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(168, 255, 37, 0.62);
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(235, 171, 186, 0.55);
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.lead{
+    font-size: 100px;
+    font-family: "Playfair Display", serif;
+
+    color: #fff;
+
+    margin-top: 150px;
+}
+
+p{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 200%;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.welcome{
+    background-color: #eaabba;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+}
+
+
+
+/**Noir Top**/
+.col1 {
+    background-image: url('Media/rosanna001.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col1:hover {
+    background-image: url('Media/rosanna002.png'); /* Change to the new image */
+}
+
+/**Noir Bottoms**/
+.col2 {
+    background-image: url('Media/sweetheart001.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col2:hover {
+    background-image: url('Media/sweetheart002.png'); /* Change to the new image */
+}
+
+.carousel {
+   width:300px;
+   height:400px;
+ }
+
+ 
+
+/**Just Peachy Top**/
+.col3 {
+    background-image: url('Media/just-peachy001.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col3:hover {
+    background-image: url('Media/just-peachy002.png'); /* Change to the new image */
+}
+
+
+/**Just Peachy Bottom**/
+.col4 {
+    background-image: url('Media/just-peachy004.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col4:hover {
+    background-image: url('Media/just-peachy003.png'); /* Change to the new image */
+}
+
+.col5 {
+    background-image: url('Media/berry-dream001.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col5:hover {
+    background-image: url('Media/berry-dream002.png'); /* Change to the new image */
+}
+
+.col6 {
+    background-image: url('Media/berry-dream002.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col6:hover {
+    background-image: url('Media/berry-dream003.png'); /* Change to the new image */
+}
+
+.col7 {
+    background-image: url('Media/bubblegum001.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col7:hover {
+    background-image: url('Media/bubblegum002.png'); /* Change to the new image */
+}
+
+.col8 {
+    background-image: url('Media/bubblegum003.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col8:hover {
+    background-image: url('Media/bubblegum001.png'); /* Change to the new image */
+}
+
+
+
+.col9 {
+    background-image: url('Media/kiss001.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col9:hover {
+    background-image: url('Media/kiss002.png'); /* Change to the new image */
+}
+
+
+
+
+.col10 {
+    background-image: url('Media/kiss003.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col10:hover {
+    background-image: url('Media/kiss004.png'); /* Change to the new image */
+}
+
+
+
+
+
+.col11 {
+    background-image: url('Media/tiki001.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col11:hover {
+    background-image: url('Media/tiki002.png'); /* Change to the new image */
+}
+
+
+
+
+
+.col12 {
+    background-image: url('Media/tiki002.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col12:hover {
+    background-image: url('Media/tiki001.png'); /* Change to the new image */
+}
+
+
+
+
+
+.col13 {
+    background-image: url('Media/fruit001.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col13:hover {
+    background-image: url('Media/fruit002.png'); /* Change to the new image */
+}
+
+
+
+
+.col14 {
+    background-image: url('Media/fruit003.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col14:hover {
+    background-image: url('Media/fruit004.png'); /* Change to the new image */
+}
+
+
+
+
+
+.col15 {
+    background-image: url('Media/classic001.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col15:hover {
+    background-image: url('Media/classic002.png'); /* Change to the new image */
+}
+
+
+
+
+
+.col16 {
+    background-image: url('Media/classic003.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    transition: background-image 0.0s; /* Add transition for smooth effect */
+}
+
+
+.col16:hover {
+    background-image: url('Media/classic004.png'); /* Change to the new image */
+}
+
+
+
+
+
+
+h3{
+    color: #eaabba;
+    font-family: "Playfair Display", serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+footer{
+    background-color: #eaabba;
+
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer h4{
+    font-size: 100%;
+    font-family: "Playfair Display", serif;
+
+    color: #fff;
+}
+
+footer h5{
+    font-size: 80%;
+    font-family: "Playfair Display", serif;
+
+    color: #fff;
+}
+
+footer li{
+    font-size: 100%;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+}
+
+
+
+footer .col-md-6{
+    text-align: right;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(168, 255, 37, 0.62);
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(235, 171, 186, 0.55);
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgba(255, 255, 255, 0.5);
+    --bs-btn-active-border-color: #ffffff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+form-label{
+    font-size: 100%;
+    font-family: "Playfair Display", serif;
+
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;;
+ 
+    color: #ffffff;
+   
+}
+
+h1{
+    color: #eaabba;
+}
+
+h5{
+    color: #eaabba;
+    font-size: 300%;
+    font-family: "Playfair Display", serif;
+
+    text-align: left;
+}
+
+h6{
+    color: #eaabba;
+    font-size: 100%;
+    font-family: "Playfair Display", serif;
+
+    text-align: left;
+}
+
+.carousel{
+    margin-left: 70px;
+}
+
+.input-group{
+    margin-top: 30px;
+}
+
+.form-control{
+    background-color: #fff;
+}
+
+.btn-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #d3d4d5;
+    --bs-btn-hover-border-color: #c6c7c8;
+    --bs-btn-focus-shadow-rgb: 211,212,213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+footer{
+    margin-top:50px;
+}
+
+
+.modal-footer button{
+    background-color: grey;
+}
+.modal-footer button:hover{
+    background-color: lightgrey;
+}
+
+.col-auto button{
+    background-color: #eaabba;
+    color: white;
+}
+
+.col-auto button:hover{
+    background-color: lightpink;
+    color: white;
+}
+
+
+
+.btn-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #d3d4d5;
+    --bs-btn-hover-border-color: #c6c7c8;
+    --bs-btn-focus-shadow-rgb: 211,212,213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+.modal-header h3{
+    color: #eaabba;
+    font-family: "Playfair Display", serif;
+    font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.modal-body h3{
+    color: #eaabba;
+    font-family: "Playfair Display", serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+.navbar-nav button{
+    background-color: white;
+}
+
