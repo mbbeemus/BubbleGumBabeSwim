@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Website Title Here">
+    <meta name="description" content="Bubblegum Babe Swimwear">
     <meta name="author" content="Mallory Beemus">
-    <title>Bubblegum Babe Swimwear Homepage</title>
+    <title>Bubblegum Babe Swimwear Swimwear Sale Page</title>
 
  
 
@@ -63,7 +63,7 @@
                             <li><a class="dropdown-item" href="coverUps.html">Cover-Ups</a></li>
                            
                             <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
-                            <li><a class="dropdown-item" href="#">Gift cards</a></li>
+                            
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -72,12 +72,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../store-policy/index.html">Store Policy</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">VIP Babes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Refer A Friend</a>
-                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="../contact/index.html">Contact</a>
                     </li>
@@ -88,16 +83,41 @@
                 <!-- User info -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link navbar-profile" href="index.html">
+                        <a class="nav-link navbar-profile" href="../login.html">
                             <img src="Media/person-fill.svg" alt="Profile Icon" width="50" height="50">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-cart" href="index.html">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#cartModal">
                             <img src="Media/cart.svg" alt="Shopping Cart Icon" width="50" height="50">
-                        </a>
+                        </button>
+
                     </li>
                 </ul>
+
+                    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                               <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h3 class="modal-title fs-5" id="exampleModalLabel">Shopping Bag</h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <h3>You Currently Have No Items in Your Cart</h3>
+                                            
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
     </nav>
@@ -113,47 +133,40 @@
 </div>
 
 <div class="row"> <!--First Row Of Suit Images-->
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col1 p-0 m-3 bg-image">
-        </div>
-    </div>
+    
 
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col2 p-0 m-3 bg-image">
-        </div>
-    </div>
+    
 
 
-
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col3 p-0 m-3 bg-image">
-        </div>
-    </div>
+  
 
 
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col4 p-0 m-3 bg-image">
-        </div>
-    </div>
 </div>
 
 
 <div class="row"> <!--First Row Of Suit TEXT-->
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+
+        
+    
         <div>
+            <div class="col1 p-0 m-3 bg-image">
+        </div>
             <h3>Noir Top</h3>
             <h3>$18.00</h3>
             <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="text-center"> <!-- Center the button -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Noir Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel1">Noir Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -201,8 +214,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber1" class="form-control">
+                                                    <label class="form-label" for="typeNumber1">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -224,19 +237,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col2 p-0 m-3 bg-image">
+        </div>
             <h3>Noir Bottoms</h3>
             <h3>$18.00</h3>
             <!-- Button trigger modal -->
+               <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalTwo">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalTwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalTwo" tabindex="-1" aria-labelledby="exampleModalLabelTwo" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Noir Bottoms</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabelTwo">Noir Bottoms</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -270,8 +287,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect02">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect02">
 
 
                                                     <option selected>Choose...</option>
@@ -284,8 +301,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber2" class="form-control">
+                                                    <label class="form-label" for="typeNumber2">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -309,19 +326,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col3 p-0 m-3 bg-image">
+        </div>
             <h3>Just Peachy Top</h3>
             <h3>$20.00</h3>
             <!-- Button trigger modal -->
+               <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalThree">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalThree" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalThree" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Just Peachy Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Just Peachy Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -355,8 +376,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect03">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect03">
 
 
                                                     <option selected>Choose...</option>
@@ -369,8 +390,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber3" class="form-control">
+                                                    <label class="form-label" for="typeNumber3">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -392,19 +413,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col4 p-0 m-3 bg-image">
+        </div>
             <h3>Just Peachy Bottoms</h3>
             <h3>$22.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFour">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalFour" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalFour" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Just Peachy Bottoms</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel4">Just Peachy Bottoms</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -438,8 +463,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect04">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect04">
 
 
                                                     <option selected>Choose...</option>
@@ -452,8 +477,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber4" class="form-control">
+                                                    <label class="form-label" for="typeNumber4">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -474,48 +499,29 @@
 </div>
 
 
-<div class="row"> <!--First Row Of Suit Images-->
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col5 p-0 m-3 bg-image">
-        </div>
-    </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col6 p-0 m-3 bg-image">
-        </div>
-    </div>
-
-
-
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col7 p-0 m-3 bg-image">
-        </div>
-    </div>
-
-
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col8 p-0 m-3 bg-image">
-        </div>
-    </div>
-</div>
 
 
 <div class="row"> <!--First Row Of Suit TEXT-->
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col5 p-0 m-3 bg-image">
+        </div>
             <h3>Berry Dream Top</h3>
             <h3>$18.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFive">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalFive" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalFive" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Berry Dream Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel5">Berry Dream Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -549,8 +555,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect05">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect05">
 
 
                                                     <option selected>Choose...</option>
@@ -563,8 +569,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber5" class="form-control">
+                                                    <label class="form-label" for="typeNumber5">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -586,19 +592,22 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col6 p-0 m-3 bg-image">
+        </div>
             <h3>Berry Dream Bottoms</h3>
             <h3>$18.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalSix">
                   Quick Shop
                 </button>
-
+            </div>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalSix" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalSix" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Berry Dream Bottom</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel6">Berry Dream Bottom</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -632,8 +641,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect06">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect06">
 
 
                                                     <option selected>Choose...</option>
@@ -646,8 +655,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber6" class="form-control">
+                                                    <label class="form-label" for="typeNumber6">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -671,19 +680,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col7 p-0 m-3 bg-image">
+        </div>
             <h3>Bubblegum Top</h3>
             <h3>$13.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalSeven">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalSeven" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalSeven" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Bubblegum Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel7">Bubblegum Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -717,8 +730,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect07">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect07">
 
 
                                                     <option selected>Choose...</option>
@@ -731,8 +744,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber7" class="form-control">
+                                                    <label class="form-label" for="typeNumber7">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -754,19 +767,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col8 p-0 m-3 bg-image">
+        </div>
             <h3>Bubblegum Bottom</h3>
             <h3>$12.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalEight">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalEight" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalEight" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Bubblegum Bottom</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel8">Bubblegum Bottom</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -800,8 +817,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect08">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect08">
 
 
                                                     <option selected>Choose...</option>
@@ -814,8 +831,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber8" class="form-control">
+                                                    <label class="form-label" for="typeNumber8">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -836,48 +853,37 @@
 </div>
 
 
-<div class="row"> <!--First Row Of Suit Images-->
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col9 p-0 m-3 bg-image">
-        </div>
-    </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col10 p-0 m-3 bg-image">
-        </div>
-    </div>
+    
 
 
 
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col11 p-0 m-3 bg-image">
-        </div>
-    </div>
+   
 
 
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col12 p-0 m-3 bg-image">
-        </div>
-    </div>
-</div>
+     
 
 
 <div class="row"> <!--First Row Of Suit TEXT-->
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col9 p-0 m-3 bg-image">
+        </div>
             <h3>French Kiss Top</h3>
             <h3>$22.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalNine">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalNine" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalNine" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>French Kiss Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel9">French Kiss Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -911,8 +917,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect09">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect09">
 
 
                                                     <option selected>Choose...</option>
@@ -925,8 +931,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber9" class="form-control">
+                                                    <label class="form-label" for="typeNumber9">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -948,19 +954,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col10 p-0 m-3 bg-image">
+        </div>
             <h3>French Kiss Bottoms</h3>
             <h3>$18.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalTen">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalTen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalTen" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>French Kiss Bottoms</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel10">French Kiss Bottoms</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -994,8 +1004,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect10">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect10">
 
 
                                                     <option selected>Choose...</option>
@@ -1008,8 +1018,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber10" class="form-control">
+                                                    <label class="form-label" for="typeNumber10">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -1033,19 +1043,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col11 p-0 m-3 bg-image">
+        </div>
             <h3>Tiki Top</h3>
             <h3>$18.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalEleven">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalEleven" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalEleven" tabindex="-1" aria-labelledby="exampleModalLabel11" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Tiki Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel11">Tiki Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -1079,8 +1093,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect11">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect11">
 
 
                                                     <option selected>Choose...</option>
@@ -1093,8 +1107,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber11" class="form-control">
+                                                    <label class="form-label" for="typeNumber11">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -1116,19 +1130,22 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col12 p-0 m-3 bg-image">
+        </div>
             <h3>Tiki Bottom</h3>
             <h3>$18.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalTwelve">
                   Quick Shop
                 </button>
-
+            </div>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalTwelve" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalTwelve" tabindex="-1" aria-labelledby="exampleModalLabel12" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Tiki Bottom</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel12">Tiki Bottom</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -1162,8 +1179,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect12">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect12">
 
 
                                                     <option selected>Choose...</option>
@@ -1176,8 +1193,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber12" class="form-control">
+                                                    <label class="form-label" for="typeNumber12">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -1198,48 +1215,29 @@
 </div>
 
 
-<div class="row"> <!--First Row Of Suit Images-->
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col13 p-0 m-3 bg-image">
-        </div>
-    </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col14 p-0 m-3 bg-image">
-        </div>
-    </div>
-
-
-
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col15 p-0 m-3 bg-image">
-        </div>
-    </div>
-
-
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-        <div class="col16 p-0 m-3 bg-image">
-        </div>
-    </div>
-</div>
 
 
 <div class="row"> <!--First Row Of Suit TEXT-->
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col13 p-0 m-3 bg-image">
+        </div>
             <h3>Fruit Salad Top</h3>
             <h3>$22.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalThirteen">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalThirteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalThirteen" tabindex="-1" aria-labelledby="exampleModalLabel13" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Fruit Salad Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel13">Fruit Salad Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -1273,8 +1271,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect13">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect13">
 
 
                                                     <option selected>Choose...</option>
@@ -1287,8 +1285,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber13" class="form-control">
+                                                    <label class="form-label" for="typeNumber13">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -1310,19 +1308,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col14 p-0 m-3 bg-image">
+        </div>
             <h3>Fruit Salad Bottom</h3>
             <h3>$24.00</h3>
             <!-- Button trigger modal -->
+               <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFourteen">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalFourteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalFourteen" tabindex="-1" aria-labelledby="exampleModalLabel14" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Noir Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel14">Noir Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -1356,8 +1358,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect14">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect14">
 
 
                                                     <option selected>Choose...</option>
@@ -1370,8 +1372,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber14" class="form-control">
+                                                    <label class="form-label" for="typeNumber14">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -1395,19 +1397,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col15 p-0 m-3 bg-image">
+        </div>
             <h3>Classic Top</h3>
             <h3>$22.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFifteen">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalFifteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalFifteen" tabindex="-1" aria-labelledby="exampleModalLabel15" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Classic Top</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel15">Classic Top</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -1441,8 +1447,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect15">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect15">
 
 
                                                     <option selected>Choose...</option>
@@ -1455,8 +1461,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber15" class="form-control">
+                                                    <label class="form-label" for="typeNumber15">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -1478,19 +1484,23 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
         <div>
+            <div class="col16 p-0 m-3 bg-image">
+        </div>
             <h3>Classic Bottom</h3>
             <h3>$22.00</h3>
             <!-- Button trigger modal -->
+                <div class="text-center"> <!-- Center the button -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalSixteen">
                   Quick Shop
                 </button>
+            </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalSixteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModalSixteen" tabindex="-1" aria-labelledby="exampleModalLabel16" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><h1>Classic Bottom</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel16">Classic Bottom</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -1524,8 +1534,8 @@
                                                 <br>
                                                 <h6>Choose Your Size</h6>
                                                 <div class="input-group mb-3">
-                                                  <br><label class="input-group-text" for="inputGroupSelect01">Size</label>
-                                                  <select class="form-select" id="inputGroupSelect01">
+                                                  <br><label class="input-group-text" for="inputGroupSelect16">Size</label>
+                                                  <select class="form-select" id="inputGroupSelect16">
 
 
                                                     <option selected>Choose...</option>
@@ -1538,8 +1548,8 @@
                                                 <h6>Quantity</h6>
 
                                                 <div data-mdb-input-init class="form-outline" style="width: 22rem;">
-                                                    <input min="1" max="100" type="number" id="typeNumber" class="form-control" />
-                                                    <label class="form-label" for="typeNumber">Quanity</label>
+                                                    <input min="1" max="100" type="number" id="typeNumber16" class="form-control">
+                                                    <label class="form-label" for="typeNumber16">Quanity</label>
                                                 </div>
 
                                                 <button type="button" class="btn btn-light">Add To Cart</button>
@@ -1568,18 +1578,17 @@
             
                 <div class="col-xs-12 col-md-2 justify-content-center">
                     <h4>Shop</h4>
-                    <ul>
-                        <li>Swimmies</li>
-                        <li>Cover-Ups</li>
-                        <li>Accessories</li>
-                    </ul>
+                    
+                        <a class="nav-link" href="swimmies.html"><h4>Swimmies</h4></a>
+                        <a class="nav-link" href="coverUps.html"><h4>Cover-Ups</h4></a>
+                        <a class="nav-link" href="accesories.html"><h4>Acessories</h4></a>
+                    
                 </div>
         
             <div class="col-xs-12 col-md-2 justify-content-center">
-                <h4>About</h4>
-                <h4>Store Policy</h4>
-                <h4>VIP Babes</h4>
-                <h4>Refer A Freind</h4>
+                <a class="nav-link" href="../about/index.html"><h4>About</h4></a>
+                <a class="nav-link" href="../store-policy/index.html"><h4>Store Policy</h4></a>
+             
             </div>
 
             
@@ -1603,7 +1612,6 @@
         </div>
     </div>
 </footer>
-
             
 
 
