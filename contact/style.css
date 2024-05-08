@@ -111,7 +111,7 @@ p{
 
 .bg-light {
     --bs-bg-opacity: 1;
-    background-color: rgba(255, 255, 255, 1)!important;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .col1 {
@@ -217,12 +217,7 @@ h2{
 }
 
 
-label{
-    font-size: 100%;
-    font-family: "Playfair Display", serif;
-    font-style: bold;
-    color: #fff;
-}
+
 
 .policies h2{
     text-align: left;
@@ -281,6 +276,72 @@ placeholder{
     --bs-btn-disabled-border-color: #0d6efd;
 }
 
+form-label{
+    font-size: 100%;
+    font-family: "Playfair Display", serif;
+    font-style: bold;
+    color: #fff;
+}
+
+
+.modal-footer button{
+    background-color: grey;
+}
+.modal-footer button:hover{
+    background-color: lightgrey;
+}
+
+.col-auto button{
+    background-color: #eaabba;
+    color: white;
+}
+
+.col-auto button:hover{
+    background-color: lightpink;
+    color: white;
+}
+
+
+
+.btn-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #d3d4d5;
+    --bs-btn-hover-border-color: #c6c7c8;
+    --bs-btn-focus-shadow-rgb: 211,212,213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+.modal-header h3{
+    color: #eaabba;
+    font-family: "Playfair Display", serif;
+    font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.modal-body h3{
+    color: #eaabba;
+    font-family: "Playfair Display", serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+.navbar-nav button{
+    background-color: white;
+}
+
+.footer h4{
+    margin-bottom: 0px;
+}
 
    
 
