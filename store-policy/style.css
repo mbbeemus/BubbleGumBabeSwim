@@ -105,7 +105,7 @@
 .lead{
 	font-size: 100px;
 	font-family: "Playfair Display", serif;
-	font-style: bold;
+
 	color: #fff;
 
 	margin-top: 150px;
@@ -176,7 +176,7 @@ h3{
 
 footer{
 	background-color: #eaabba;
-	content-align: center;
+
 	padding-top: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -185,14 +185,14 @@ footer{
 footer h4{
 	font-size: 100%;
 	font-family: "Playfair Display", serif;
-	font-style: bold;
+
 	color: #fff;
 }
 
 footer h5{
 	font-size: 80%;
 	font-family: "Playfair Display", serif;
-	font-style: bold;
+
 	color: #fff;
 }
 
@@ -211,7 +211,7 @@ footer .col-md-6{
 h2{
     font-size: 100%;
     font-family: "Playfair Display", serif;
-    font-style: bold;
+
     color: #eaabba;
     text-align: center;
 
@@ -221,7 +221,7 @@ h2{
     background-color: #eaabba;
     font-size: 100%;
     font-family: "Playfair Display", serif;
-    font-style: bold;
+
     color: #fff;
     text-align: center;
 }
@@ -236,7 +236,7 @@ h2{
 label{
     font-size: 100%;
     font-family: "Playfair Display", serif;
-    font-style: bold;
+
     color: #fff;
 }
 
@@ -273,6 +273,7 @@ label{
     --bs-btn-disabled-bg: #0d6efd;
     --bs-btn-disabled-border-color: #0d6efd;
 }
+
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: rgba(168, 255, 37, 0.62);
@@ -289,6 +290,77 @@ label{
     --bs-btn-disabled-bg: #0d6efd;
     --bs-btn-disabled-border-color: #0d6efd;
 }
+
+
+
+.modal-footer button{
+    background-color: grey;
+}
+.modal-footer button:hover{
+    background-color: lightgrey;
+}
+
+.col-auto button{
+    background-color: #eaabba;
+    color: white;
+}
+
+.col-auto button:hover{
+    background-color: lightpink;
+    color: white;
+}
+
+
+
+.btn-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #d3d4d5;
+    --bs-btn-hover-border-color: #c6c7c8;
+    --bs-btn-focus-shadow-rgb: 211,212,213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+.modal-header h3{
+    color: #eaabba;
+    font-family: "Playfair Display", serif;
+    font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.modal-body h3{
+    color: #eaabba;
+    font-family: "Playfair Display", serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+.navbar-nav button{
+    background-color: white;
+}
+
+.footer h4{
+    margin-bottom: 0px;
+}
+
+
+
+
+   
+
+
+
+
+
 
 
 
